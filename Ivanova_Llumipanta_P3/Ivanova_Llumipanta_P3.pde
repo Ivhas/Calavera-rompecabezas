@@ -10,7 +10,7 @@ int posX=520;
 int posy=500;
 int posY=530;
 
-int bcount=0;//CONTADOR PARA GANASTES
+int bcount=0;//CONTADOR PARA GANASTE
 float ix;
 float iy;
 int bs = 100;//tamaño del cuadrado
@@ -310,9 +310,10 @@ fill (100,12,230);
   rect(ix, iy, bs, bs/15);//le divido para dos para poder hacer bien la boca
   //cierre boca
   
-  //PARA PONER EL GANASTES
+  //PARA PONER EL GANASTE
   
-  if(bcount>=8){//si le pongo mas que 8 se aloca :)
+  
+  if(bcount>=8){//
   
     rectMode(CENTER);
    fill(255);
@@ -320,8 +321,8 @@ fill (100,12,230);
   fill(0);
 textSize(100);
 
-text("GANASTES", 340, 320);
-  }//CIERRE PARA PONER EL GANASTES
+text("GANASTE", 340, 320);
+  }//CIERRE PARA PONER EL GANASTE
   
  
 }// cierre if screen init  
